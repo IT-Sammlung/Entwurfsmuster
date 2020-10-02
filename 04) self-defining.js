@@ -1,3 +1,4 @@
+// Selbst überschreibende Funktion
 function log1() {
   console.log("1");
   log1 = function log2() {
@@ -10,3 +11,5 @@ log1(); // 2
 log1(); // 3
 referenz(); // 1  
 referenz(); // 1
+
+//Siehe Entwurfsmuster Lazy Instantiation
