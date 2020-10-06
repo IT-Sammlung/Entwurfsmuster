@@ -1,3 +1,4 @@
+// alle Funktionen werden privat gemacht und im Rückgabeobjekt referenziert
 // Revealing-Module-Entwurfsmuster
 const Modul = (() => {
   let _zahl = 12;
